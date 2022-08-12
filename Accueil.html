@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MomoD-ba<a href="Accueil.html">Accueil</a></title>
+<style>
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    color: rgb(241, 238, 239);
+    border-bottom: 5px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    border-radius: 100%;
+    text-decoration: none;
+}
+nav a.actif {    
+    background-color: rgb(49, 11, 77) ; 
+    color: #ae1abc ;
+    border-color: #1ABC9C ;
+}
+nav a:hover,
+nav a:hover.actif{
+    background-color: #6b4e8c;
+    color: #ffe843;
+    border-color: #ffe843;
+    transition: all 1s;
+}
+
+nav a:hover{
+    color: rgb(223, 6, 6);
+    border-bottom: 2px solid rgb(234, 9, 16);
+}
+    .Accueil{
+        text-align: center;
+        border-radius: 100%;
+        background-color: aqua;
+        background: linear-gradient(145deg, #8cbdd7, #769fb5);
+        box-shadow:  14px 14px 27px #47606d,
+                 -14px -14px 27px #bfffff;
+        
+}
+
+    .for{
+        text-align: center;
+        border-radius: 100%;
+        background-color: rgb(106, 18, 18);
+        background: linear-gradient(145deg, #8cbdd7, #769fb5);
+        box-shadow:  14px 14px 27px #47606d,
+                 -14px -14px 27px #bfffff;
+}
+    
+    .exp{
+        text-align: center;
+        border-radius: 100%;
+        background-color: aqua;
+        background: linear-gradient(145deg, #8cbdd7, #769fb5);
+        box-shadow:  14px 14px 27px #47606d,
+                 -14px -14px 27px #bfffff;
+}
+
+    
+    .plus{
+        text-align: center;
+        border-radius: 100%;
+        background-color: aqua;
+        background: linear-gradient(145deg, #8cbdd7, #769fb5);
+        box-shadow:  14px 14px 27px #47606d,
+                 -14px -14px 27px #bfffff;
+}
+       
+
+    .contact{
+        text-align: center;
+        border-radius: 100%;
+        background-color: aqua;
+        background: linear-gradient(145deg, #8cbdd7, #769fb5);
+        box-shadow:  14px 14px 27px #47606d,
+                 -14px -14px 27px #bfffff;
+}
+    a {
+        font-family: "Bungee", cursive;
+        font-size: 3.5em;
+    }
+    
+    h1{
+        font-family: cursive;
+        margin: 10%;
+        padding: 0%;
+        text-align: center;
+    
+    }
+    .bas{
+    display: flex;                /* Transformation en flexbox */
+    padding:0;                    /* Suppression des marges internes */
+    background-color: #ccc;       /* Ajout de la couleur d'arrière-plan */
+    justify-content: space-around;/* Alignements des liens dans le menu */
+}
+.bas li {
+    list-style-type: none ;       /* Suppression des puces */
+  
+}
+.bas a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.4rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;    /* Arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    transition: all 1s ;          /* Ajout des effets de transition */
+}
+.bas a.actif {    
+    background-color: #000 ; 
+    color: #1ABC9C ;
+    border-color: #1ABC9C ;
+}
+.bas a:hover,
+.bas a:hover.actif{
+    background-color: #ed2794;
+    color: #ffe843;
+    border-color: #ffe843;
+}
+    p{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 >  <a href="Accueil.html"> MomoD-ba  </a>
+            </h1>
+            <br>
+            <nav>
+                <div class="background-one">
+                    <ul>
+                        <div class="menu">
+                            <li><div class = "Accueil" > <a href="Accueil.html">Accueil</a></div></li>
+                            <li><div class = "for" > <a href="Formation.html">Formations & Compétences</a></div></li>
+                            <li><div class = "exp" > <a href="Experience.html">Experiences</a></div></li>
+                            <li><div class = "plus" > <a href="Plusloin.html">Mes passions</a></div></li>
+                            <li><div class = "contact" > <a href="Contactez-moi">Contactez-moi </a></div></li>
+                        </div>
+                    </ul>
+            </nav>
+    
+        </header>
+        <hr>
+        
+       <article>
+            <h2>À propos</h2>
+            <p class = "intro">
+                    Madame, Monsieur,
+                    Admis à l’ISCOD au sein du programme Bachelor Développement Web, je vous adresse ma candidature pour un poste en alternance au sein de votre entreprise.
+                    La formation que je m’apprête à suivre me permettra d’acquérir de nouvelles compétences opérationnelles, afin de mener à bien les missions que vous voudrez bien me confier.
+                    Cette formation se déroule en alternance (contrat d’apprentissage) en format digital learning selon les modalités suivantes :
+                    - Des rentrées toute l’année (pas de dates fixes de rentrée)
+                    - Un rythme d’alternance optimisé : 4 jours en entreprise / 1 journée en formation, adapté aux temps forts d’activité de votre entreprise
+                    - Une plateforme de pointe d’apprentissage en ligne, où les enseignements sont dispensés par des intervenants professionnels
+                    Vous trouverez mon cv telechargable sur le lien indiqué tout en bas de la page d'acceuil.
+                    Ba Mohamet
+
+            </p>
+           
+       </article>
+<hr>
+    <footer>
+        <div class="bas">
+                <li> <a href = "https://github.com/MomoDBA" >github </a> </li>
+                <li> <a href = "https://www.linkedin.com/in/mohamet-ba-3024b8211/" >Linkedin </a> </li>
+                <li> <a href="https://www.facebook.com/metzooba/" >Facebook </a> </li>
+                <li> <a href="https://www.instagram.com/imamohamet/" >Instagram </a> </li>
+        </div>          
+    </footer>
+</body>
+</html>
