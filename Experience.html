@@ -1,0 +1,167 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiences</title>
+    <style>
+        body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+h1{
+        font-family: cursive;
+        margin: 10%;
+        padding: 0%;
+        text-align: center;
+    
+    }
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none ;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #8cbdd7, #769fb5);
+    box-shadow:  14px 14px 27px #47606d,
+                 -14px -14px 27px #bfffff;
+}
+
+nav li{
+    float: left;
+    width: 20%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+}
+
+/*Evite que le menu n'ait une hauteur nulle*/
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+nav a:hover{
+    color: rgb(9, 46, 232);
+    border-bottom: 2px solid rgb(59, 53, 15);
+}
+
+.conteneur{
+  margin: 10px 20px;
+  height: 1500px;
+}
+    p{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    </style>
+
+</head>
+<header>
+    <h1> 
+        <span> Expériences </span> 
+    </h1>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="Accueil.html">Accueil</a></li>
+            <li><a href="Formation.html">Formations & Compétences</a></li>
+            <li><a href="Experience.html">Experiences</a></li>
+            <li><a href="Plusloin.html">Mes passions</a></li>
+            <li><a href="Contactez-moi">Contactez-moi </a></li>
+        </ul>
+    </nav>
+
+</header>
+<hr>
+<body>
+    <section>
+        <h2> 
+            <strong> Expriences Professionnelles</strong>
+        </h2>
+<hr>
+<section class="Experiences">
+    <ul>
+        <li><strong>2022-Commis de cuisine les week ends (en CDI)</strong></li>
+            <p> Le commis de cuisine effectue la mise en place nécessaire à la réalisation des plats tout en respectant les fiches techniques. 
+                Je participe à l'envoi des plats dans le délai souhaité par le client ainsi qu’au contrôle et au stockage des marchandises lors de la livraison.
+            </p>
+        <li><strong>2021-Mission en Interims (Avec Adecco)</strong></li>
+            <p>
+                Divers missions varié qui peuvent aller de un à plusieurs mois.
+            </p>
+        <li><strong>2020-Assistant maintenance informatique</strong></li>
+            <p>
+                De juillet 2020 à septembre 2020 Mode and Co Toulouse, France.
+                Avec un contrat saisonnier.
+            </p>
+        <li> <strong>De juillet 2019 à Aout 2019 : Commis en cuisine</strong> </li>
+            <p>
+                Emploie saisonnier au restaurant Le Bellini à Toulouse Capitol.
+            </p>
+        <li>Steward au sol</li>
+            <p>
+                Août 2018 Stade Toulousains Toulouse. 
+                Accueillir et assister les spectateurs afin d'assurer le bon déroulement de la rencontre au niveau de la sécurité.
+            </p>
+        </ul>
+    </section>
+</section>
+    <section>
+        <h2>Mini-portfolio</h2>
+            <h3>Techniques scientifiques en C</h3>
+                <p>Il s’agit des techniques de bases du calcul scientifique (interpolation, résolution d’équations non linéaires (méthodes itératives), résolution d’équations différentielles à coefficients constants, intégration numérique et dérivation numériques).
+                </p> 
+            <h3>Pouvoir des pointes</h3>
+                <p>Programmation de techniques scientifiques (C): Représentation de l'effet
+                    de pointe en utilisant le langage C / Université Toulouse III - Paul
+                    Sabatier .
+                </p>
+            <h3>projet de recherche(Cursus master ingénierie)</h3>
+                <p>Etude du fonctionnement des signaux (4G et 5G) / Laboratoire CNRS-LAAS.(Etude d'une voiture télécommandée)
+                </p>
+            <h3>Automatique à événements discrets</h3>
+                <p>
+                    Mise en oeuvre de commandes
+                    pour les maquettes industrielles existantes en utilisant le langage
+                    adéquat( C, VHDL, IL) / Université Toulouse III - Paul Sabatier.
+                </p>
+
+    </section>
+    <hr>
+    <footer>
+        <strong> Reseaux Sociaux : </strong>
+            <ul>
+                <li> <a href = "https://www.linkedin.com/in/mohamet-ba-3024b8211/" >Linkedin </a> </li>
+                <li> <a href="https://www.facebook.com/metzooba/" >Facebook </a> </li>
+                <li> <a href="https://www.instagram.com/imamohamet/" >Instagram </a> </li>
+            </ul>          
+    </footer>
+
+</body>
+</html>
